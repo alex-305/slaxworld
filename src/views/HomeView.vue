@@ -19,22 +19,22 @@ const links: link[] = [
   {
     name: 'Github',
     link: 'https://github.com/alex-305',
-    imgURL: 'src/assets/icons/github.png'
+    imgURL: '/icons/github.png'
   },
   {
     name: 'Last.fm',
     link: 'https://www.last.fm/user/alex_gonz',
-    imgURL: 'src/assets/icons/lastfm.png'
+    imgURL: '/icons/lastfm.png'
   },
   {
     name: 'Letterboxd',
     link: 'https://letterboxd.com/alexgonz/films',
-    imgURL: 'src/assets/icons/letterboxd.png'
+    imgURL: '/icons/letterboxd.png'
   },
   {
     name: 'Storygraph',
     link: 'https://thestorygraph.com/books-read/alex305',
-    imgURL: 'src/assets/icons/storygraph.png'
+    imgURL: '/icons/storygraph.png'
   }
 ]
 
