@@ -33,7 +33,7 @@ const links: link[] = [
   },
   {
     name: 'Storygraph',
-    link: 'https://thestorygraph.com/books-read/alex305',
+    link: 'https://app.thestorygraph.com/books-read/alex305',
     imgURL: '/icons/storygraph.png'
   }
 ]
