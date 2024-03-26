@@ -83,7 +83,7 @@ img:hover {
   border-radius: 10px;
   cursor: pointer;
   align-items: center;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   background: linear-gradient(to right, #0984e3, #a29bfe);
   transition: transform 0.4s ease;
   box-shadow:

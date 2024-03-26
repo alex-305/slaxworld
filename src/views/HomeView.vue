@@ -49,6 +49,7 @@ interface link {
 .title {
   font-size: 50px;
   color: black;
+  margin-bottom: 0px;
 }
 
 .container {
