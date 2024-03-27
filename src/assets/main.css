@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Workbench&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   font-family: 'VT323', system-ui;
+}
+
+.daybg {
   background: radial-gradient(
     circle,
     #ff7675 0%,
@@ -10,6 +18,17 @@ body {
     #ffeaa7 40%,
     #81ecec 70%,
     #74b9ff 90%
+  );
+}
+
+.nightbg {
+  background: radial-gradient(
+    circle,
+    #fefeff 0%,
+    #afd3ff 20%,
+    #7c94ff 40%,
+    #9b70ff 70%,
+    #621fff 90%
   );
 }
 

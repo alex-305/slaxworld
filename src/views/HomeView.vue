@@ -2,6 +2,7 @@
   <div class="container">
     <div>
       <h1 class="title">{{ title }}</h1>
+      <DayNightToggle/>
     </div>
     <div>
       <ul class="linklist">
@@ -23,6 +24,7 @@
 <script setup lang="ts">
 import LinkComponent from '@/components/LinkComponent.vue'
 import SocialComponent from '@/components/SocialComponent.vue'
+import DayNightToggle from '@/components/DayNightToggle.vue';
 import configData from '@/assets/config.json'
 
 let title = configData.title
@@ -48,6 +50,10 @@ interface link {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+.container div {
+  margin-bottom: 10px;
 }
 
 .linklist {
