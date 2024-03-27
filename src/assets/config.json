@@ -1,0 +1,25 @@
+{
+  "title": "Alex Gonzalez",
+  "links": [
+    {
+      "name": "Github",
+      "link": "https://github.com/alex-305",
+      "imgURL": "/icons/github.png"
+    },
+    {
+      "name": "Last.fm",
+      "link": "https://www.last.fm/user/alex_gonz",
+      "imgURL": "/icons/lastfm.png"
+    },
+    {
+      "name": "Letterboxd",
+      "link": "https://letterboxd.com/alexgonz/films",
+      "imgURL": "/icons/letterboxd.png"
+    },
+    {
+      "name": "Storygraph",
+      "link": "https://app.thestorygraph.com/books-read/alex305",
+      "imgURL": "/icons/storygraph.png"
+    }
+  ]
+}

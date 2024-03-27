@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <h1 class="title">Alex Gonzalez</h1>
+      <h1 class="title">{{ title }}</h1>
     </div>
     <div>
       <ul class="linklist">
@@ -15,28 +15,10 @@
 
 <script setup lang="ts">
 import LinkComponent from '@/components/LinkComponent.vue'
-const links: link[] = [
-  {
-    name: 'Github',
-    link: 'https://github.com/alex-305',
-    imgURL: '/icons/github.png'
-  },
-  {
-    name: 'Last.fm',
-    link: 'https://www.last.fm/user/alex_gonz',
-    imgURL: '/icons/lastfm.png'
-  },
-  {
-    name: 'Letterboxd',
-    link: 'https://letterboxd.com/alexgonz/films',
-    imgURL: '/icons/letterboxd.png'
-  },
-  {
-    name: 'Storygraph',
-    link: 'https://app.thestorygraph.com/books-read/alex305',
-    imgURL: '/icons/storygraph.png'
-  }
-]
+import configData from '@/assets/config.json'
+
+let title = configData.title
+let links: link[] = configData.links
 
 interface link {
   link: string
