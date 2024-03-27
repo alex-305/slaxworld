@@ -53,7 +53,7 @@ img {
   mix-blend-mode: normal;
 }
 
-img:hover {
+.button:hover img {
   animation: dance 0.5s infinite alternate;
   opacity: 0.9;
   mix-blend-mode: soft-light;
