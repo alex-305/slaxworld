@@ -21,5 +21,27 @@
       "link": "https://app.thestorygraph.com/books-read/alex305",
       "imgURL": "/icons/storygraph.png"
     }
+  ],
+  "socials": [
+    {
+      "link": "https://twitter.com/itsslax",
+      "imgURL": "/icons/twitter.png"
+    },
+    {
+      "link": "https://www.instagram.com/alex.gonz__/",
+      "imgURL": "/icons/instagram.png"
+    },
+    {
+      "link": "https://tiktok.com/@slaxalex",
+      "imgURL": "/icons/tiktok.png"
+    },
+    {
+      "link": "https://open.spotify.com/user/soldieralex305?si=b3a8737175054158",
+      "imgURL": "/icons/spotify.png"
+    },
+    {
+      "link": "https://www.youtube.com/c/Slax305/",
+      "imgURL": "/icons/youtube.png"
+    }
   ]
 }
