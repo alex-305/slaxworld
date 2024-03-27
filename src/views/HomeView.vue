@@ -62,6 +62,11 @@ interface link {
   padding: 0px;
   display: flex;
   flex-direction: row;
+  background-color: #50cbd441;
+  border-radius: 10px;
+  box-shadow:
+    0 0px 16px 0 #50cbd441,
+    0 0px 30px 0 #50cbd441;
 }
 
 .linklist li {

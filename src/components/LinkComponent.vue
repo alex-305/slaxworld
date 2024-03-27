@@ -59,18 +59,6 @@ img:hover {
   mix-blend-mode: soft-light;
 }
 
-@keyframes dance {
-  0% {
-    transform: translateY(0); /* Start position */
-  }
-  50% {
-    transform: translateY(-10px); /* Move up */
-  }
-  100% {
-    transform: translateY(0); /* Return to start position */
-  }
-}
-
 .button {
   font-family: 'Rubik Doodle Shadow', system-ui;
   display: flex;
