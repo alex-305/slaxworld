@@ -1,39 +1,15 @@
-# slaxworld
+# Slaxworld Links
+Slaxworld Links is a linktree style website made out of frustration with Linktree's limitations. It is built specfically to be very simple to configure. If you desire to clone the repo and make your own version, instructions are down below.
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+### Setup & Configuration
+##### Dependencies
+- Node Package Manager
+- Git
+##### How To
+1. Open your terminal
+2. `git clone git@github.com:alex-305/slaxworld.git`
+3. `npm install`
+4. Navigate to src/assets/config.json
+5. Modify all links, names, and images to your desire.
+6. Use your web hosting solution of choice.
+7. Enjoy your website.
