@@ -17,11 +17,6 @@
 import { ref } from 'vue'
 const clicked = ref(false)
 const props = defineProps({
-  imgURL: {
-    type: String,
-    required: false,
-    default: '@/assets/icons/default.png'
-  },
   name: {
     type: String,
     required: false,
@@ -34,7 +29,7 @@ const props = defineProps({
 })
 
 const name = props.name
-const imageURL = props.imgURL
+const imageURL = '/icons/' + name.toLowerCase().replace(/\./g, '') + '.png'
 const link = props.link
 </script>
 

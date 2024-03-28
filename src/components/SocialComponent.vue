@@ -1,12 +1,12 @@
 <template>
   <div>
-    <a :href="link" target="_blank"> <img :src="imgURL" /> </a>
+    <a :href="link" target="_blank"> <img :alt="'Alex\'s ' + name" :src="imgURL" /> </a>
   </div>
 </template>
 
 <script setup lang="ts">
 const props = defineProps({
-  imgURL: {
+  name: {
     type: String,
     required: true
   },
@@ -17,7 +17,8 @@ const props = defineProps({
 })
 
 const link = props.link
-const imgURL = props.imgURL
+const name = props.name
+const imgURL = '/icons/' + name.toLowerCase().replace(/\./g, '') + '.png'
 </script>
 
 <style scoped>
@@ -30,10 +31,11 @@ img {
   height: 30px;
   width: 30px;
   filter: grayscale(50%) contrast(180%);
+  transition: transform 0.3s ease;
 }
 
 img:hover {
-  animation: dance 0.5s infinite alternate;
+  transform: translateY(-10px);
   filter: drop-shadow(0px 0px 20px rgb(0, 0, 0));
 }
 </style>

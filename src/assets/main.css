@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Workbench&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
@@ -57,13 +57,21 @@ button:active:hover {
 
 @keyframes dance {
   0% {
-    transform: translateY(0); /* Start position */
+    transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px); /* Move up */
+    transform: translateY(-10px);
   }
   100% {
-    transform: translateY(0); /* Return to start position */
+    transform: translateY(0);
   }
 }
 
+@keyframes hover {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

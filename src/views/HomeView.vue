@@ -7,14 +7,14 @@
     <div>
       <ul class="linklist">
         <li v-for="(link, index) in links" :key="index">
-          <LinkComponent :name="link.name" :imgURL="link.imgURL" :link="link.link" />
+          <LinkComponent :name="link.name" :link="link.link" />
         </li>
       </ul>
     </div>
     <div>
       <ul class="sociallist">
         <li v-for="(social, index) in socialLinks" :key="index">
-          <SocialComponent :link="social.link" :imgURL="social.imgURL" />
+          <SocialComponent :link="social.link" :name="social.name" />
         </li>
       </ul>
     </div>
@@ -28,14 +28,8 @@ import DayNightToggle from '@/components/DayNightToggle.vue'
 import configData from '@/assets/config.json'
 
 let title = configData.title
-let links: link[] = configData.links
+let links = configData.links
 let socialLinks = configData.socials
-
-interface link {
-  link: string
-  imgURL?: string
-  name?: string
-}
 </script>
 
 <style scoped>

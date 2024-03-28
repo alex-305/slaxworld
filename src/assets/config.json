@@ -3,45 +3,53 @@
   "links": [
     {
       "name": "Github",
-      "link": "https://github.com/alex-305",
-      "imgURL": "/icons/github.png"
+      "link": "https://github.com/alex-305"
     },
     {
       "name": "Last.fm",
-      "link": "https://www.last.fm/user/alex_gonz",
-      "imgURL": "/icons/lastfm.png"
+      "link": "https://www.last.fm/user/alex_gonz"
     },
     {
       "name": "Letterboxd",
-      "link": "https://letterboxd.com/alexgonz/films",
-      "imgURL": "/icons/letterboxd.png"
+      "link": "https://letterboxd.com/alexgonz/films"
     },
     {
       "name": "Storygraph",
-      "link": "https://app.thestorygraph.com/books-read/alex305",
-      "imgURL": "/icons/storygraph.png"
+      "link": "https://app.thestorygraph.com/books-read/alex305"
     }
   ],
   "socials": [
     {
-      "link": "https://twitter.com/itsslax",
-      "imgURL": "/icons/twitter.png"
+      "name": "Twitter",
+      "link": "https://twitter.com/itsslax"
     },
     {
-      "link": "https://www.instagram.com/alex.gonz__/",
-      "imgURL": "/icons/instagram.png"
+      "name": "Instagram",
+      "link": "https://www.instagram.com/alex.gonz__/"
     },
     {
-      "link": "https://tiktok.com/@slaxalex",
-      "imgURL": "/icons/tiktok.png"
+      "name": "TikTok",
+      "link": "https://tiktok.com/@slaxalex"
     },
     {
-      "link": "https://open.spotify.com/user/soldieralex305?si=b3a8737175054158",
-      "imgURL": "/icons/spotify.png"
+      "name": "Spotify",
+      "link": "https://open.spotify.com/user/soldieralex305?si=b3a8737175054158"
     },
     {
-      "link": "https://www.youtube.com/c/Slax305/",
-      "imgURL": "/icons/youtube.png"
+      "name": "YouTube",
+      "link": "https://www.youtube.com/c/Slax305/"
+    },
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/alex-gonzalez-0a8bbb241/"
+    },
+    {
+      "name": "Steam",
+      "link": "https://steamcommunity.com/id/SoldierAlex/"
+    },
+    {
+      "name": "Snapchat",
+      "link": "https://t.snapchat.com/TT9PsB8R"
     }
   ]
 }
