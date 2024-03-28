@@ -36,5 +36,4 @@ img:hover {
   animation: dance 0.5s infinite alternate;
   filter: drop-shadow(0px 0px 20px rgb(0, 0, 0));
 }
-
 </style>
