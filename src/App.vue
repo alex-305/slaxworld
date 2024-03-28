@@ -1,19 +1,18 @@
 <template>
-  <div class="parentdiv" :class="{daybg : !isNight, nightbg : isNight }">
+  <div class="parentdiv" :class="{ daybg: !isNight, nightbg: isNight }">
     <RouterView />
     <footer>
-      <p>Powered by <a href="https://github.com/alex-305/slaxworld">me</a></p>
+      <p>Powered by <a href="https://github.com/alex-305/slaxworld" target="_blank">me</a></p>
     </footer>
   </div>
 </template>
 
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import { useDayNightStore } from './stores/daynight';
+import { useDayNightStore } from './stores/daynight'
 import { computed } from 'vue'
 
-  const isNight = computed(() => useDayNightStore().isNight)
-
+const isNight = computed(() => useDayNightStore().isNight)
 </script>
 
 <style scoped>
@@ -31,5 +30,4 @@ footer {
   justify-content: center;
   text-align: center;
 }
-
 </style>
